@@ -18,6 +18,12 @@ namespace Capitulo_6_7.Capitulo_7
     /// <summary>
     /// Interaction logic for Ejercicio5Cap7.xaml
     /// </summary>
+
+    /*----
+
+        Este programa funciona como una agenda telefónica y que guarde el nombre de la persona y su número telefónico 
+        
+    ----*/
     public partial class Program_5 : Window
     {
         Hashtable Lista = new Hashtable();

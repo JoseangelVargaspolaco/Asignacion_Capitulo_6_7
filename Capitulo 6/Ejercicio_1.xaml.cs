@@ -8,7 +8,11 @@ namespace Capitulo_6_7.Capitulo_6
     /// Interaction logic for Ejercicio_1.xaml
     /// </summary>
 
-    /*---- En este apartado calcula el promedio ----*/
+    /*---- 
+    
+        En este apartado calcula el promedio, la calificacion maxima y minima 
+    
+    ----*/
 
     public partial class Ejercicio_1 : Window
     {

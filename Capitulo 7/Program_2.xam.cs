@@ -18,6 +18,12 @@ namespace Capitulo_6_7.Capitulo_7
     /// <summary>
     /// Interaction logic for Ejercicio2.xaml
     /// </summary>
+
+    /*---- 
+    
+        Este programa que funciona como un diccionario, con palabra y definición 
+        
+    ----*/
     public partial class Program_2 : Window
     {
         Hashtable Lista = new Hashtable();

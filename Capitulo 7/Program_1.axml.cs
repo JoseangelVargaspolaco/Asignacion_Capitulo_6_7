@@ -18,6 +18,12 @@ namespace Capitulo_6_7.Capitulo_7
     /// <summary>
     /// Interaction logic for Ejercicio1cap7.xaml
     /// </summary>
+
+    /*---- 
+     
+        calcula el promedio, calificación máxima y mínima de un salón de clases usando el ArrayList 
+        
+    ----*/
     public partial class Program_1 : Window
     {
         private List <double> lista = new List<double>();
@@ -34,7 +40,6 @@ namespace Capitulo_6_7.Capitulo_7
 
         private void Calcularbutton_Click(object sender, RoutedEventArgs e)
         {
-
             calcular();
         }
 
