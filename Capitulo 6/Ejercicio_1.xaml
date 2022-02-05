@@ -1,0 +1,41 @@
+﻿<Window x:Class="Capitulo_6_7.Capitulo_6.Ejercicio_1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Capitulo_6_7.Capitulo_6"
+        mc:Ignorable="d"
+        Title="Ejercicio_1" Height="350" Width="300">
+    <Grid>
+
+        <StackPanel Orientation="Vertical" Margin="10">
+
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Calificacion"></Label>
+                <TextBox x:Name="calificacionTextBox" Height="18" Width="70"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Promedio"></Label>
+                <TextBox x:Name="promedioTextBox" Height="18" Width="70" Margin="8,0"></TextBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                 <Label Content="Mayor"></Label>
+                 <TextBox x:Name="mayorTextBox" Height="18" Width="70" Margin="25,0,0,0"> </TextBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                 <Label Content="Menor"></Label>
+                 <TextBox x:Name="menorTextBox" Height="18" Width="70" Margin="24,0,0,0"> </TextBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="5,5">
+                <Button Content="Agregar" Margin="0,0,10,0" Height="25" Width="60" x:Name="agregar" Click="agregarButton"></Button>
+                <Button x:Name="calcular" Content=" Calcular " Height="25" Width="60"  Click="calcularButton"></Button>
+            </StackPanel>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
